@@ -15,44 +15,44 @@ sqa_criteria:
     repos:
       github.com/Dans-labs/semaf-client git:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-celadon-gecko.sh
-        container: qc.acc_wiggy-seashell-peccary
+        - /usr/bin/env sh .sqa/script.pasty-blue-liger.sh
+        container: qc.acc_skanky-platinum-bombay
   QC.Doc:
     repos:
       github.com/Dans-labs/semaf-client find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-heliotrope-tuatara.sh
-        container: qc.doc_queasy-ivory-iguana
+        - /usr/bin/env sh .sqa/script.thirsty-harlequin-forest.sh
+        container: qc.doc_wiggy-buff-maltese
       github.com/Dans-labs/semaf-client git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-rust-zebu.sh
-        container: qc.doc_goopy-lime-echidna
+        - /usr/bin/env sh .sqa/script.messy-carmine-warthog.sh
+        container: qc.doc_trippy-lime-wasp
       github.com/Dans-labs/semaf-client markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-amaranth-mammoth.sh
-        container: qc.doc_sunny-black-caiman
+        - /usr/bin/env sh .sqa/script.foggy-green-wombat.sh
+        container: qc.doc_muggy-harlequin-liger
   QC.Lic:
     repos:
       github.com/Dans-labs/semaf-client licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-peach-collie.sh
-        container: qc.lic_squeaky-amber-wildebeest
+        - /usr/bin/env sh .sqa/script.gimpy-cobalt-mongrel.sh
+        container: qc.lic_homey-viridian-mongoose
   QC.Sec:
     repos:
       github.com/Dans-labs/semaf-client bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-copper-hornet.sh
-        container: qc.sec_greasy-denim-maltese
+        - /usr/bin/env sh .sqa/script.silly-olive-chinook.sh
+        container: qc.sec_wimpy-gamboge-alligator
   QC.Sty:
     repos:
       github.com/Dans-labs/semaf-client flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-lime-burmese.sh
-        container: qc.sty_gamy-copper-chow
+        - /usr/bin/env sh .sqa/script.shaky-chestnut-skunk.sh
+        container: qc.sty_gummy-amethyst-ibis
   QC.Ver:
     repos:
       github.com/Dans-labs/semaf-client get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-sangria-bonobo.sh
-        container: qc.ver_lanky-aqua-chinchilla
+        - /usr/bin/env sh .sqa/script.paltry-russet-armadillo.sh
+        container: qc.ver_stuffy-magenta-avocet
 timeout: 1800
